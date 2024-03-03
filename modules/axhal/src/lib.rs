@@ -41,6 +41,7 @@ pub mod cpu;
 pub mod mem;
 pub mod time;
 pub mod trap;
+pub mod random;
 
 #[cfg(feature = "tls")]
 pub mod tls;
